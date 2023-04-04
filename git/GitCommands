@@ -43,4 +43,43 @@ git remote remove (remote name)
 
 *************************************End of Undo Changes*************************************
 
+**************************************Fork a Repository**************************************
+
+// Used to get the repository from some other git account to your account
+-> gh repo fork (Path of the repository)
+NOTE:- While forking the repository we get an option of cloning the repository to our local system which we can use to do modifications
+
+**********************************End of Fork a Repository**********************************
+
+************************************Create a New Branch*************************************
+
+-> git branch (branch name)
+
+// To create a new branch and set head to it
+-> git checkout -b branch (branch name)
+
+**********************************End of Create a new Branch********************************
+
+****************************************Pull a branch***************************************
+
+-> git pull branch (remote name) (branch name)
+-> git checkout (branch name)
+
+**************************************End of pull a branch**********************************
+
+****************************************Merging branches************************************
+
+-> git checkout (branch name) // In which a branch is to be merged
+-> git merge (branch name) // Branch which is to be merged
+
+**************************************End of Merging branches*******************************
+
+****************************************Set Upstream****************************************
+
+// Used to set any branch as the main branch which signifies that any push will be done to this branch as default
+
+-> git push --set-upstream (remote name) (branch name)
+
+**************************************End of Set Upstream**********************************
+
 
