@@ -1,0 +1,46 @@
+***************************************Git hub Login*****************************************
+
+gh login auth
+
+************************************End of Git hub Login*************************************
+
+**********************************Create a new Repository************************************
+
+gh repo create
+
+*******************************End of Create a new Repository********************************
+
+*************************************Create a new Remote*************************************
+
+git remote (remote name) [Path(Https/ssh/cli)]
+
+**********************************End of Create a new Remote*********************************
+
+***************************************Remove a remote***************************************
+
+git remote remove (remote name)
+
+************************************End of Remove a remote***********************************
+
+******************************************Push To git****************************************
+
+-> git init
+-> git add (file/folder)
+-> git add . 
+-> git commit -m "message"
+-> git push (remote name) (branch name)
+
+**************************************End of Push to git*************************************
+
+*****************************************Undo Changes****************************************
+
+//Before Push
+-> git checkout (filename)
+
+//When Pushed
+-> git log --oneline (Will return all the hash code of commits)
+-> git revert (specific hash commit) --not-edit
+
+*************************************End of Undo Changes*************************************
+
+
