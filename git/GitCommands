@@ -25,7 +25,8 @@ git remote remove (remote name)
 ******************************************Push To git****************************************
 
 -> git init
--> git add (file/folder)
+-> git add (file)
+	OR
 -> git add . 
 -> git commit -m "message"
 -> git push (remote name) (branch name)
