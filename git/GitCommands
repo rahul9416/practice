@@ -12,7 +12,7 @@ gh repo create
 
 *************************************Create a new Remote*************************************
 
-git remote (remote name) [Path(Https/ssh/cli)]
+git remote add (remote name) [Path(Https/ssh/cli)]
 
 **********************************End of Create a new Remote*********************************
 
@@ -83,4 +83,8 @@ NOTE:- While forking the repository we get an option of cloning the repository t
 
 **************************************End of Set Upstream**********************************
 
+*************************************Create an Issue***************************************
 
+-> gh create issue --title (Title of issue) -body (body)
+
+*************************************End of Create an Issue********************************
