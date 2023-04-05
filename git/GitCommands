@@ -63,7 +63,7 @@ NOTE:- While forking the repository we get an option of cloning the repository t
 
 ****************************************Pull a branch***************************************
 
--> git pull branch (remote name) (branch name)
+-> git pull (remote name) (branch name)
 -> git checkout (branch name)
 
 **************************************End of pull a branch**********************************
